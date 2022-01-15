@@ -9,6 +9,35 @@
 	"dependencies": {
 		"express": "^4.14.0"
 	},
+	"helmet": {
+			"version": "3.21.3",
+			"resolved": "https://registry.npmjs.org/helmet/-/helmet-3.21.3.tgz",
+			"integrity": "sha512-8OjGNdpG3WQhPO71fSy2fT4X3FSNutU1LDeAf+YS+Vil6r+fE7w8per5mNed6egGYbZl3QhKXgFzMYSwys+YQw==",
+			"requires": {
+				"depd": "2.0.0",
+				"dns-prefetch-control": "0.2.0",
+				"dont-sniff-mimetype": "1.1.0",
+				"expect-ct": "0.2.0",
+				"feature-policy": "0.3.0",
+				"frameguard": "3.1.0",
+				"helmet-crossdomain": "0.4.0",
+				"helmet-csp": "2.9.5",
+				"hide-powered-by": "1.1.0",
+				"hpkp": "2.0.0",
+				"hsts": "2.2.0",
+				"ienoopen": "1.1.0",
+				"nocache": "2.1.0",
+				"referrer-policy": "1.2.0",
+				"x-xss-protection": "1.3.0"
+			},
+			"dependencies": {
+				"depd": {
+					"version": "2.0.0",
+					"resolved": "https://registry.npmjs.org/depd/-/depd-2.0.0.tgz",
+					"integrity": "sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw=="
+				}
+			}
+		},
 	"keywords": [
 		"node",
 		"hyperdev",
